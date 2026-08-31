@@ -133,3 +133,6 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+#Configurar para usar o fuso horário de Brasília
+TIME_ZONE = 'America/Sao_Paulo'
